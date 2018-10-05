@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="520.0" prefWidth="565.0" style="-fx-background-color: orange;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="datapeminjamanbuku.FXMLDocumentController">
+    <children>
+      <Label fx:id="judul" layoutX="58.0" layoutY="7.0" prefHeight="35.0" prefWidth="450.0" text="Data Peminjaman Buku Perpustakaan SMK Telkom Malang">
+         <font>
+            <Font name="Exotc350 DmBd BT Demi-Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label id="nama" fx:id="Anama" layoutX="37.0" layoutY="60.0" text="Nama">
+         <font>
+            <Font name="Lucida Handwriting Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label id="kelas" fx:id="Akelas" layoutX="39.0" layoutY="98.0" text="Kelas">
+         <font>
+            <Font name="Lucida Handwriting Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label id="nama buku" fx:id="AnamaBuku" layoutX="38.0" layoutY="145.0" text="Nama Buku">
+         <font>
+            <Font name="Lucida Handwriting Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label id="nomer telepon" fx:id="ATelepon" layoutX="39.0" layoutY="187.0" text="Nomer Telepon">
+         <font>
+            <Font name="Lucida Handwriting Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label id="tanggal peminjaman" fx:id="Apeminjaman" layoutX="34.0" layoutY="232.0" text="Tanggal Peminjaman">
+         <font>
+            <Font name="Lucida Handwriting Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label id="tanggal pengembalian" fx:id="Apengembalian" layoutX="35.0" layoutY="272.0" prefHeight="21.0" prefWidth="171.0" text="Tanggal Pengembalian">
+         <font>
+            <Font name="Lucida Handwriting Italic" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="editnama" layoutX="227.0" layoutY="56.0" prefHeight="25.0" prefWidth="259.0" />
+      <TextField fx:id="editkelas" layoutX="227.0" layoutY="94.0" prefHeight="25.0" prefWidth="101.0" />
+      <TextField fx:id="editnamabuku" layoutX="227.0" layoutY="141.0" prefHeight="25.0" prefWidth="259.0" />
+      <TextField fx:id="editnomertelepon" layoutX="227.0" layoutY="183.0" prefHeight="25.0" prefWidth="259.0" />
+      <TextField fx:id="edittanggalpeminjaman" layoutX="227.0" layoutY="228.0" prefHeight="25.0" prefWidth="259.0" />
+      <TextField fx:id="edittanggalpengembalian" layoutX="227.0" layoutY="268.0" prefHeight="25.0" prefWidth="259.0" />
+      <TextArea fx:id="tekskonfirmasi" layoutX="41.0" layoutY="349.0" maxWidth="473.0" minWidth="473.0" prefHeight="157.0" prefWidth="473.0" />
+      <Button fx:id="Button1" layoutX="227.0" layoutY="313.0" mnemonicParsing="false" onAction="#Klikkedua" text="Oke" />
+      <Button fx:id="Buttonhapus" layoutX="313.0" layoutY="313.0" mnemonicParsing="false" onAction="#Hapusisian" text="Hapus" />
+    </children>
+</AnchorPane>
